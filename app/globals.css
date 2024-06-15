@@ -1,3 +1,72 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+/* index.css */
+
+body {
+  background-color: #121212; /* Dark background color */
+  color: #ffffff; /* White text color */
+  font-family: Arial, sans-serif; /* Example font family */
+}
+
+.dark-mode .sorting-visualizer {
+  background-color: #1a1a1a; /* Darker background for sorting visualizer */
+  color: #ffffff; /* White text color */
+}
+
+.dark-mode .array-bar {
+  background-color: #4caf50; /* Green for array bars */
+}
+
+.dark-mode .control-panel {
+  margin-top: 20px;
+}
+
+.dark-mode .control-button {
+  background-color: #555; /* Dark gray background for control buttons */
+  color: #ffffff; /* White text color */
+  border: none;
+  padding: 10px 20px;
+  margin-right: 10px;
+  cursor: pointer;
+}
+
+.dark-mode .control-button:hover {
+  background-color: #777; /* Darker gray on hover */
+}
+
+.dark-mode .settings {
+  margin-top: 20px;
+}
+
+.dark-mode .setting-label {
+  margin-right: 10px;
+  color: #ffffff; /* White text color */
+}
+
+.dark-mode .setting-input {
+  width: 100px;
+  padding: 8px;
+  border: 1px solid #555; /* Dark border color */
+  background-color: #333; /* Darker background color */
+  color: #ffffff; /* White text color */
+  border-radius: 4px;
+}
+
+.dark-mode .algorithm-description {
+  background-color: #1a1a1a; /* Darker background for algorithm description */
+  color: #ffffff; /* White text color */
+  padding: 20px;
+  margin-top: 20px;
+  border-radius: 8px;
+}
+
+.dark-mode .algorithm-title {
+  font-size: 24px;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+.dark-mode .algorithm-description p {
+  margin-bottom: 8px;
+}
